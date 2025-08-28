@@ -1,14 +1,21 @@
 package com.examplelogics;
 
-public class Multiplication {
+public class UsingThirdVariable {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		
 		int a=10;
-		int b=5; git
-		int c=a-b;
-		System.out.println("Multiplication of two numbers :"+ c);
+		int b=20;
+		
+		int c=b;
+		
+		b=a;
+		a=c;
+		 System.out.println(a +" "+ b);
+	
+		
 	}
 
 }
