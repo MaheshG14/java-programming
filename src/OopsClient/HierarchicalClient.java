@@ -6,7 +6,7 @@ import Oops.Derived2;
 
 public class HierarchicalClient {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {  
 		
 		
 		 Base1 base=new Base1("type");

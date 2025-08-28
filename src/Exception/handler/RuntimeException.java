@@ -1,4 +1,4 @@
-package Exception.handler;
+  package Exception.handler;
 
 public class RuntimeException 
 {
