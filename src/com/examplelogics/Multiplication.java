@@ -6,7 +6,7 @@ public class Multiplication {
 		// TODO Auto-generated method stub
 
 		int a=10;
-		int b=5; git
+		int b=5; 
 		int c=a-b;
 		System.out.println("Multiplication of two numbers :"+ c);
 	}
