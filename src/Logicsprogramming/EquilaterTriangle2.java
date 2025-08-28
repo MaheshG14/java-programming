@@ -9,7 +9,7 @@ public class EquilaterTriangle2
 		
 		 int consoleSize= 160;
 		 
-		 for(int i=1;i<=10;i++)
+		  for(int i=1;i<=10;i++)
 		 {
 			 for(int j=1;j<=consoleSize/2-i ;j++)
 			 {
@@ -20,6 +20,7 @@ public class EquilaterTriangle2
 					  System.out.print("* ");
 				 } 
 				 System.out.println(); 
+				 
 				 
 		 }
 	}
