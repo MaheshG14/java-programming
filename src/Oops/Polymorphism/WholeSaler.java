@@ -1,0 +1,15 @@
+package Oops.Polymorphism;
+
+public class WholeSaler {
+	
+	public void m1()
+	{
+		System.out.println("inside the m1  method");
+	}
+    
+	public void m2()
+	{
+		System.out.println("inside the m2  method");
+	}
+
+}
