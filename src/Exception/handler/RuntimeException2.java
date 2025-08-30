@@ -9,15 +9,25 @@ public class RuntimeException2
 		 int result=0;
 	     try {
 		 result=1/0;
+		 
 	     } 
+	     catch(ArithmeticException ex) {
+	    	 ex.printStackTrace();
+	    	 
+	     }
 	     catch(Exception ex) {
 	    	 ex.printStackTrace();
+	    	 
 	     }
 	     
+	     finally
+	     {
+	    	 System.out.println("1234567");
+	     }
 		System.out.println(result);
-		 System.out.println("ArithmeticException");
+	//	stem.out.println("ArithmeticException");
 	     
-		
+
 	}
 	
 	
