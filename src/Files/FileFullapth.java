@@ -17,6 +17,9 @@ public class FileFullapth {
 		
 		System.out.println(Arrays.toString(f.listFiles()));
 		
+		 System.out.println(f.isDirectory());
+		  System.out.println(f.isFile());
+		
 	}
 	
 
