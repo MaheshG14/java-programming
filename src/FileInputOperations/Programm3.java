@@ -1,10 +1,11 @@
-package FileOperations;
+package FileInputOperations;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileReader;
 import java.io.IOException;
 
-public class Programm1 {
+public class Programm3 {
 	
 	public static void main(String[] args) throws IOException {
 		File f = new  File("./sample.txt");
@@ -13,18 +14,16 @@ public class Programm1 {
 	
 		System.out.println(f.createNewFile());
 				
-	
-	  FileInputStream fis = new FileInputStream(f);
+	FileReader  fr  = new  FileReader(f);
 	//System.out.println(fis.read());
 	
 	int result;
 	
-	while((result= fis.read()) !=-1) {
+	while((result= fr.read()) !=-1) {
           System.out.print((char)result);
 	}
-	
-	
-	fis.close();
+
+	fr.close();
 	
 	
 	}
